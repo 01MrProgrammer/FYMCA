@@ -1,0 +1,10 @@
+/* External CSS Stylesheet */
+.external-style {
+    color: #28a745;
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    text-align: justify;
+}
+p {
+    line-height: 1.6;
+}

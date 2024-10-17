@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Example</title>
+    
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+        }
+        .internal-style {
+            color: darkblue;
+            text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Inline CSS Example -->
+    <h1 style="color: red; text-align: center;">Welcome to CSS Styling</h1>
+    
+    <p style="color: green;">This is an example of using inline CSS for styling.</p>
+
+    <h2 class="internal-style">This heading uses Internal CSS</h2>
+
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Apples</td>
+            <td>5 kg</td>
+            <td>$10</td>
+        </tr>
+        <tr>
+            <td>Oranges</td>
+            <td>3 kg</td>
+            <td>$7</td>
+        </tr>
+    </table>
+
+    <footer>
+        <p>Styled using External CSS</p>
+    </footer>
+
+</body>
+</html>

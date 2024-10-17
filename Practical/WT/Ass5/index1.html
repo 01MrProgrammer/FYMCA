@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced CSS Example</title>
+    
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            margin: 20px;
+        }
+        h1 {
+            color: #0066cc;
+        }
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My Advanced CSS Webpage</h1>
+        <p>This webpage demonstrates inline, internal, and external CSS.</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <section>
+        <div class="content">
+            <h2>Inline Styling Example</h2>
+            <p style="color: red; font-weight: bold;">This paragraph is styled using <strong>inline CSS</strong>.</p>
+            
+            <h2>Internal Styling Example</h2>
+            <p>This section and its contents are styled using <strong>internal CSS</strong>.</p>
+
+            <h2>External Styling Example</h2>
+            <p class="external-style">This paragraph is styled using <strong>external CSS</strong> from an external stylesheet.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Footer Section - Designed using internal CSS</p>
+    </div>
+
+</body>
+</html>
